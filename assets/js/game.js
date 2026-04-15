@@ -1,4 +1,4 @@
-// 1. Initialisierung (NUR EINMAL!)
+// 1. Initialisierung
 const canvas = document.getElementById("tetris");
 const context = canvas.getContext("2d");
 const nextCanvases = [
@@ -15,7 +15,12 @@ let nextPieces = [];
 let timers = {};
 const repeatDelay = 180;
 const repeatSpeed = 50;
-let currentTheme = 0;
+
+// Theme-Initialisierung
+const themes = ["theme-gameboy", "theme-neon", "theme-dark"];
+let currentTheme = parseInt(localStorage.getItem("tetris_theme")) || 0;
+// Theme sofort beim Start anwenden
+document.body.classList.add(themes[currentTheme]);
 
 // 2. Kernfunktionen
 function createPiece(type) {
@@ -261,15 +266,11 @@ document.addEventListener("keyup", (e) => {
   if (e.keyCode === 40) stopAction("down");
 });
 
-// Start-Knopf Fix: Nutzt 'click' für maximale Kompatibilität mit Overlays
 const startBtn = document.getElementById("start-btn");
 if (startBtn) {
-  startBtn.addEventListener("click", (e) => {
-    togglePause(false);
-  });
+  startBtn.addEventListener("click", () => togglePause(false));
 }
 
-// Mobile Steuerung
 const mobileMap = [
   { id: "btn-left", key: "left", act: () => playerMove(-1) },
   { id: "btn-right", key: "right", act: () => playerMove(1) },
@@ -298,16 +299,16 @@ document.getElementById("btn-rotate").addEventListener("pointerdown", (e) => {
   playerRotate(1);
 });
 
-// Menü Buttons
 document
   .getElementById("pause-btn")
   .addEventListener("click", () => togglePause());
 
 document.getElementById("theme-toggle").addEventListener("click", () => {
-  const themes = ["theme-gameboy", "theme-neon", "theme-dark"];
   document.body.classList.remove(themes[currentTheme]);
   currentTheme = (currentTheme + 1) % themes.length;
   document.body.classList.add(themes[currentTheme]);
+  // Speichere das gewählte Theme
+  localStorage.setItem("tetris_theme", currentTheme);
 });
 
 document.getElementById("reset-highscore").addEventListener("click", () => {
