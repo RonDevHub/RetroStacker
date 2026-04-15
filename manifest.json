@@ -1,0 +1,15 @@
+{
+  "short_name": "Tetris",
+  "name": "PHP & JS Tetris",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/index.php",
+  "background_color": "#9bbc0f",
+  "display": "standalone",
+  "theme_color": "#0f380f"
+}
