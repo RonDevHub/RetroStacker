@@ -1,0 +1,27 @@
+/* Grundvariablen für GameBoy (Standard) */
+:root {
+    --bg-color: #9bbc0f;
+    --grid-color: #8bac0f;
+    --block-color: #0f380f;
+    --text-color: #0f380f;
+    --button-bg: rgba(15, 56, 15, 0.2);
+}
+
+/* Neon Theme */
+body.theme-neon {
+    --bg-color: #050505;
+    --grid-color: #111;
+    --block-color: #00f2ff;
+    --text-color: #00f2ff;
+    --button-bg: rgba(0, 242, 255, 0.2);
+    text-shadow: 0 0 5px #00f2ff;
+}
+
+/* Dark Mode (Subtil) */
+body.theme-dark {
+    --bg-color: #1a1a1a;
+    --grid-color: #222;
+    --block-color: #e0e0e0;
+    --text-color: #e0e0e0;
+    --button-bg: rgba(255, 255, 255, 0.1);
+}
