@@ -26,7 +26,3 @@ Eine hochperformante, ressourcenschonende Tetris-Umsetzung im modernen Retro-Loo
 
 ## 👨‍💻 Autor
 Entwickelt von Ronny (RonDevHub).
-Gehostet via Cloudflare Tunnel für den weltweiten Zugriff.
-
-
-
