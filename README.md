@@ -13,7 +13,6 @@ Eine hochperformante, ressourcenschonende **Brick-Stacker** im modernen Retro-Lo
 ## 🛠️ Tech-Stack
 * **Backend:** PHP (Pure)
 * **Frontend:** Vanilla JS, HTML5 Canvas, CSS3
-* **Infrastructure:** Docker-ready, optimiert für Portainer & Forgejo
 
 ## 🎮 Steuerung
 | Aktion | Tastatur | Mobile Steuerung |
