@@ -1,6 +1,6 @@
 # 🕹️ Ron's Retro Stacker - RonDevHub Edition
 
-Eine hochperformante, ressourcenschonende Tetris-Umsetzung im modernen Retro-Look. Entwickelt als PHP-basiertes Projekt, optimiert für mobilfreundliches Gameplay.
+Eine hochperformante, ressourcenschonende **Brick-Stacker** im modernen Retro-Look. Entwickelt als PHP-basiertes Projekt, optimiert für mobilfreundliches Gameplay.
 
 ## 🚀 Features
 * **Drei Retro-Themes:** Wähle zwischen *Gameboy*, *Neon* und *Dark Mode* (deine Auswahl wird gespeichert!).
