@@ -1,6 +1,6 @@
 {
-  "short_name": "Tetris",
-  "name": "PHP & JS Tetris",
+  "short_name": "Retro Stacker",
+  "name": "PHP & JS Retro Stacker",
   "icons": [
     {
       "src": "assets/img/icon-192.png",
