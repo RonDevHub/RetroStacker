@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Modern Tetris Pro";
+$pageTitle = "Ron's Retro Stacker";
 include 'includes/header.php';
 ?>
 
@@ -42,7 +42,7 @@ include 'includes/header.php';
     </div>
 
     <footer id="game-footer">
-        <p>RonDevHub Tetris &bull; v1.2 &bull; 2026</p>
+        <p>Ron's Retro Stacker &bull; v1.2 &bull; <?= date("Y"); ?></p>
     </footer>
 </div>
 
