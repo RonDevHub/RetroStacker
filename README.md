@@ -25,3 +25,8 @@ Eine hochperformante, ressourcenschonende **Brick-Stacker** im modernen Retro-Lo
 
 ## 👨‍💻 Autor
 Entwickelt von Ronny (RonDevHub).
+
+---
+
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/Depressionist1/4,99)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/U6U31EV2VS) [![Ko-fi](https://img.shields.io/badge/buy--me--a--coffee-f48924?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/rondev)
