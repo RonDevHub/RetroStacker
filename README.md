@@ -14,9 +14,11 @@ Ron's Retro Stacker - RonDevHub Edition
 [![Bitcoin Power](https://mini-badges.rondevhub.de/icon/bitcoin/Bitcoin-ff7b00/social/-666666 "Bitcoin Power")](https://btc-sharer.s3cr.net/v/Vv7pQfYHW3HDqOkKujhGo8DOokNoA9FD_v3pyzFLMHZKR1gyTFJRQ1A5RWZmM09hTjI5SFZsY2ZlQThGWVZPazBnbHczaTJ6UzVWZVVGcnYwMWEr)
 </div>
 
-<hr>
+---
 
 Eine hochperformante, ressourcenschonende **Brick-Stacker** im modernen Retro-Look. Entwickelt als PHP-basiertes Projekt, optimiert für mobilfreundliches Gameplay.
+
+---
 
 ## 🚀 Features
 * **Drei Retro-Themes:** Wähle zwischen *Gameboy*, *Neon* und *Dark Mode* (deine Auswahl wird gespeichert!).
