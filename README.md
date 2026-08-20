@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://retrostacker.rondev.de/assets/img/icon-192.png" height="125"><br>
+<img src="assets/img/icon-192.png" height="125"><br>
 Ron's Retro Stacker - RonDevHub Edition
 </h1>
 
